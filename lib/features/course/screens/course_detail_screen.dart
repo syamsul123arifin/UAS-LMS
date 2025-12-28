@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import '../models/detailed_course.dart';
 import '../widgets/lesson_tile.dart';
 import 'lesson_screen.dart';
+import '../../payment/screens/payment_screen.dart';
 
 class CourseDetailScreen extends StatelessWidget {
   final DetailedCourse course;
@@ -185,13 +186,15 @@ class CourseDetailScreen extends StatelessWidget {
                   ),
                   const SizedBox(width: 16),
                   Expanded(
-                    child: ElevatedButton(
-                      onPressed: () {
-                        // Pay logic
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(content: Text('Proceeding to payment')),
-                        );
-                      },
+                   child: ElevatedButton(
+                     onPressed: () {
+                       Navigator.push(
+                         context,
+                         MaterialPageRoute(
+                           builder: (context) => PaymentScreen(totalAmount: course.price),
+                         ),
+                       );
+                     },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: const Color(0xFF2563EB),
                         foregroundColor: Colors.white,
