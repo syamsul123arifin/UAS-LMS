@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "title": "Complete React Developer Course",
+    "category": "Frontend Developer",
+    "rating": 4.8,
+    "totalHours": 40,
+    "price": 99.99,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "2",
+    "title": "UI/UX Design Fundamentals",
+    "category": "UI/UX Designer",
+    "rating": 4.6,
+    "totalHours": 25,
+    "price": 79.99,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "3",
+    "title": "Digital Marketing Mastery",
+    "category": "Digital Marketing",
+    "rating": 4.7,
+    "totalHours": 30,
+    "price": 89.99,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "4",
+    "title": "Advanced Flutter Development",
+    "category": "Frontend Developer",
+    "rating": 4.9,
+    "totalHours": 50,
+    "price": 129.99,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "5",
+    "title": "Mobile App Design Principles",
+    "category": "UI/UX Designer",
+    "rating": 4.5,
+    "totalHours": 20,
+    "price": 69.99,
+    "imageUrl": "https://via.placeholder.com/150"
+  },
+  {
+    "id": "6",
+    "title": "Social Media Marketing Strategy",
+    "category": "Digital Marketing",
+    "rating": 4.4,
+    "totalHours": 35,
+    "price": 94.99,
+    "imageUrl": "https://via.placeholder.com/150"
+  }
+]

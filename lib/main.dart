@@ -4,6 +4,7 @@ import 'features/auth/providers/auth_provider.dart';
 import 'features/auth/screens/splash_screen.dart';
 import 'features/auth/screens/sign_in_screen.dart';
 import 'features/auth/screens/sign_up_screen.dart';
+import 'features/home/screens/main_navigation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,11 +25,12 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
           useMaterial3: true,
         ),
-        initialRoute: '/splash',
+        initialRoute: '/home',
         routes: {
           '/splash': (context) => const SplashScreen(),
           '/signin': (context) => const SignInScreen(),
           '/signup': (context) => const SignUpScreen(),
+          '/home': (context) => const MainNavigation(),
         },
       ),
     );
